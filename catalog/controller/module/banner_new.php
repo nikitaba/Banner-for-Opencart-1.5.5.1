@@ -2,8 +2,6 @@
 class ControllerModuleBannerNew extends Controller {
     protected function index($setting) {
 
-        $this->language->load('module/banner_new');
-
         $this->data['heading_title'] = $this->language->get('heading_title');
 
         $this->load->model('setting/setting');
